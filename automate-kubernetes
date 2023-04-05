@@ -2,7 +2,7 @@ Resources:
     EKSCluster:
         Type: AWS::EKS::Cluster
         Properties:
-            Name: eshani-cluster
+            Name: eshani-cluster-automate-jenkins
             Version: "1.25"
             RoleArn: "arn:aws:iam::388328004932:role/AWSEKSRole"
             ResourcesVpcConfig:
